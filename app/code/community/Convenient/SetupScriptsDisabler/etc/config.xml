@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Convenient_SetupScriptsDisabler>
+            <version>0.1.0</version>
+        </Convenient_SetupScriptsDisabler>
+    </modules>
+    <global>
+        <!--
+            see Mage_Core_Model_App::_shouldSkipProcessModulesUpdates
+        -->
+        <skip_process_modules_updates>1</skip_process_modules_updates>
+    </global>
+</config>
