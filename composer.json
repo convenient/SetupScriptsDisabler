@@ -1,5 +1,27 @@
 {
     "name":"convenient/setupscriptsdisabler",
     "description":"Disables automatic application of setup scripts in Magento",
-    "type":"magento-module"
+    "type":"magento-module",
+    "suggest":{
+        "magento-hackathon/magento-composer-installer":"*"
+    },
+    "extra":{
+        "map":[
+            [
+                "app/etc/modules/Convenient_SetupScriptsDisabler.xml",
+                "app/etc/modules/Convenient_SetupScriptsDisabler.xml"
+            ],
+            [
+                "app/code/community/Convenient/SetupScriptsDisabler/",
+                "app/code/community/Convenient/SetupScriptsDisabler/"
+            ]
+        ]
+    },
+    "license":"OSL-3.0",
+    "authors":[
+        {
+            "name":"Luke Rodgers",
+            "email":"lukerodgers90@gmail.com"
+        }
+    ]
 }
