@@ -7,8 +7,14 @@
     },
     "extra":{
         "map":[
-            ["app/etc/modules/Convenient_SetupScriptsDisabler.xml", "app/etc/modules/Convenient_SetupScriptsDisabler.xml"],
-            ["app/code/community/Convenient/SetupScriptsDisabler/", "app/code/community/Convenient/SetupScriptsDisabler/"]
+            [
+                "app/etc/modules/Convenient_SetupScriptsDisabler.xml",
+                "app/etc/modules/Convenient_SetupScriptsDisabler.xml"
+            ],
+            [
+                "app/code/community/Convenient/SetupScriptsDisabler/",
+                "app/code/community/Convenient/SetupScriptsDisabler/"
+            ]
         ]
     }
 }
