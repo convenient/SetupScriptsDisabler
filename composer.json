@@ -4,5 +4,11 @@
     "type": "magento-module",
     "require": {
         "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra":{
+        "map":[
+            ["app/etc/modules/Convenient_SetupScriptsDisabler.xml", "app/etc/modules/Convenient_SetupScriptsDisabler.xml"],
+            ["app/code/local/Convenient/SetupScriptsDisabler/", "app/code/local/Convenient/SetupScriptsDisabler/"]
+        ]
     }
 }
