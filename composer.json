@@ -2,7 +2,7 @@
     "name":"convenient/setupscriptsdisabler",
     "description":"Disables automatic application of setup scripts in Magento",
     "type": "magento-module",
-    "suggest": {
+    "require": {
         "magento-hackathon/magento-composer-installer": "*"
     },
     "extra":{
