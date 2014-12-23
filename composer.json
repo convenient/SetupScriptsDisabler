@@ -2,6 +2,7 @@
     "name":"convenient/setupscriptsdisabler",
     "description":"Disables automatic application of setup scripts in Magento",
     "type": "magento-module",
+    "license": "OSL-3.0",
     "suggest":{
         "magento-hackathon/magento-composer-installer": "*"
     }
