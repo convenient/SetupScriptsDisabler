@@ -1,16 +1,19 @@
 Convenient_SetupScriptsDisabler
 ====================
 
-Disables the automatic application of setup scripts in Magento.
+Disables the automatic application of setup scripts in Magento, this is cool because
 
-n98-magerun sys:setup:run is my preferred method of running setup scripts. 
+1. It's a little performance boost, we don't need to be checking for setup scripts every time Mage::run is called as setup scripts should be run during the deployment process
+2. It is safer. If you went wild and deployed to a busy server it is possible that setup scripts could be initiated multiple times by multiple processes. This could cause your database to get into unexpected or corrupted states.
+
+`n98-magerun sys:setup:run` is my preferred method of running setup scripts. 
 
 Just pop it in your composer.json and it's all ready to go.
 
 ```
 {
     "require": {
-        "magento-hackathon/magento-composer-installer": "~3.0@alpha",
+        "magento-hackathon/magento-composer-installer": "~2.0",
         "convenient/setupscriptsdisabler":"~0.1"
     },
     "repositories": [
@@ -20,8 +23,7 @@ Just pop it in your composer.json and it's all ready to go.
         }
     ],
     "extra": {
-        "magento-root-dir":"./",
-        "magento-deploystrategy":"copy"
+        "magento-root-dir":"./"
     }
 }
 
