@@ -8,7 +8,7 @@ Disables the automatic application of setup scripts in Magento, this is cool bec
 
 `n98-magerun sys:setup:run` is my preferred method of running setup scripts. 
 
-Just pop it in your composer.json and it's all ready to go.
+Just pop it (and your preferred composer installer / autoloader) in your composer.json and it's all ready to go.
 
 ```
 {
