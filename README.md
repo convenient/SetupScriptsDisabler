@@ -23,7 +23,8 @@ Just pop it (and your preferred composer installer / autoloader) in your compose
         }
     ],
     "extra": {
-        "magento-root-dir":"./"
+        "magento-root-dir":"./",
+        "magento-force":"override"
     }
 }
 
