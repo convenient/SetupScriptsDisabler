@@ -13,7 +13,7 @@ Just pop it (and your preferred composer installer / autoloader) in your compose
 ```
 {
     "require": {
-        "magento-hackathon/magento-composer-installer": "~2.0",
+        "magento-hackathon/magento-composer-installer": "~3.0",
         "convenient/setupscriptsdisabler":"~0.1"
     },
     "repositories": [
