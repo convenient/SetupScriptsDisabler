@@ -10,7 +10,7 @@
     ],
     "type": "magento-module",
     "license": "OSL-3.0",
-    "require":{
+    "suggest":{
         "magento-hackathon/magento-composer-installer": "*"
     }
 }
