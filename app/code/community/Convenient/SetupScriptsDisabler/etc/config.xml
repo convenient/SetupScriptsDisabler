@@ -10,5 +10,6 @@
             see Mage_Core_Model_App::_shouldSkipProcessModulesUpdates
         -->
         <skip_process_modules_updates>1</skip_process_modules_updates>
+        <skip_process_modules_updates_ignore_dev_mode>1</skip_process_modules_updates_ignore_dev_mode>
     </global>
 </config>
