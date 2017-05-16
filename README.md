@@ -14,7 +14,7 @@ Just pop it (and your preferred composer installer / autoloader) in your compose
 {
     "require": {
         "magento-hackathon/magento-composer-installer": "~2.0",
-        "convenient/setupscriptsdisabler":"~0.1"
+        "convenient/setupscriptsdisabler":"~0.2"
     },
     "repositories": [
         {
